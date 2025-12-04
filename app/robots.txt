@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow important pages
+Allow: /
+Allow: /about
+Allow: /services
+Allow: /services/audio
+Allow: /services/lighting
+Allow: /services/visual
+Allow: /services/production
+Allow: /services/dancefloor
+Allow: /contact
+
+# Sitemap location
+Sitemap: https://sound360.co.za/sitemap.xml
+
+# Crawl delay (optional - helps prevent server overload)
+Crawl-delay: 1
